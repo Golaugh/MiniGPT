@@ -39,6 +39,26 @@ MiniGPT/
 
 ## Instructions
 
+**Create and activate a virtual env**
+
+```bash
+python3 -m venv .venv
+```
+
+**Activate env in (macOS/Linux) with**
+```bash
+source .venv/bin/activate
+```
+**in Windows with**
+```bash
+.venv/Scripts/activate
+```
+
+**Installing libraries**
+```bash
+    pip install -r requirements.txt
+```
+
 **Edit hyperparameters** in `config/train_config.json`
 
 **Run training**:
